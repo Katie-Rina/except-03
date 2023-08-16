@@ -11,7 +11,7 @@ public class hw03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введите данные (Фамилия Имя Отчество дата рождения номер телефона пол): ");
+        System.out.print("Введите данные (Фамилия, Имя, Отчество, дату рождения, номер телефона, пол - через пробел): ");
         String input = scanner.nextLine();
 
         try {
